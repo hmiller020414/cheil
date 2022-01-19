@@ -8,12 +8,12 @@ const ProductGallery = () => {
     const [products, setProducts] = useState()
 
     useEffect( async () => {
-        const results = await ProductData.index()
+        const results = await ProductData.getProducts()
         setProducts(results)
     }, []);
 
     if (!products) {return <h2>No products</h2>}
-    const prodGal = products.length ? products.map( p => <SingleProduct key={p.familyId} />) : null;
+    const prodGal = products.length ? products.map( p => <SingleProduct key={p.familyId} product={p} />) : null;
 
     return (
         <div>
