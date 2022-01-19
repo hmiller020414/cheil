@@ -1,6 +1,8 @@
 import './App.css';
 import { Component } from 'react';
 
+import Hero from './components/Hero';
+
 import ProductData from './services/Data';
 
 class App extends Component {
@@ -14,12 +16,12 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          
+          <Hero />
         </header>
       </div>
     );
   }
-  
+
 }
 
 
