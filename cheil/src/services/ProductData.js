@@ -4,6 +4,7 @@ const index = () => {
   const url = baseUrl;
   return fetch(url)
     .then( response => response.json() )
+    .then( data => data?.response?.resultData?.productList )
 }
 
 const ProductData = {
