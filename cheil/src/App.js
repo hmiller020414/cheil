@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 
 import Hero from './components/Hero';
 import ProductGallery from './components/ProductGallery'
