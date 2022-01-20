@@ -13,7 +13,7 @@ const ProductGallery = () => {
         setProducts(results)
     }, []);
 
-    if (!products) {return <h2>No products</h2>}
+    if (!products) {return null}
 
     const filteredProducts = products.filter(product => product.modelList.every(model => model.pviSubtypeName == 'Smartphone'))
     const prodGal = filteredProducts.length 
