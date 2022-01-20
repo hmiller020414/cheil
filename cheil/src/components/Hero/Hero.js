@@ -6,7 +6,7 @@ const Hero = () =>  {
     return (
         <div className="hero">
             <img src={SamsungLogo} />
-            <h1>Product Details</h1>
+            <h1>Smartphone Products</h1>
         </div>
     )
 }

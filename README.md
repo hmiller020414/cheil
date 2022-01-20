@@ -29,3 +29,6 @@ I passed the array of color options, if it existed, from the Single Product to t
 
 # STEP 8: Styling
 Now that I had all the product data I wanted, I installed Sass and created all relevant files. I made folders for each component to house the JS and SCSS files for that component, for a cleaner file structure. Then I wrote the styles for each component on desktop. Once it matched my Adobe XD design, I added responsiveness so that the design looks good across all devices.
+
+# STEP 9: Cleanup
+Finally, I simplified some of the code by destructuring the object outside of the render.
