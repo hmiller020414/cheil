@@ -1,6 +1,9 @@
 .colorOptions {
     display: flex;
     grid-column-gap: 10px;
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: 0 auto;
     .colorCircle {
         width: 20px;
         height: 20px;

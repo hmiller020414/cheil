@@ -1,0 +1,17 @@
+.singleProduct {
+    width: 371px;
+    background-color: #F5F7F6;
+    box-sizing: border-box;
+    box-shadow: 5px 6px 6px rgba(0,0,0,0.16);
+    border-radius: 53px;
+    padding: 45px 50px;
+    .singleProductContent {
+        text-align: center;
+        margin: 0 auto;
+        .singleProductImg {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
