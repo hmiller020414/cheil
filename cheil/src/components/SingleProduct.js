@@ -1,7 +1,11 @@
-const SingleProduct = (product) => {
+import ColorOptions from './ColorOptions'
+
+const SingleProduct = ({product}) => {
     return (
         <div>
-            <p>I am a single product!</p>
+            <img src={product.modelList[0].thumbUrl} alt={product.modelList[0].thumbUrlAlt} />
+            <p>{product.fmyMarketingName}</p>
+            <ColorOptions colors={product.chipOptions[0]} />
         </div>
     )
 }
