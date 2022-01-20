@@ -13,7 +13,9 @@ const ProductGallery = () => {
     }, []);
 
     if (!products) {return <h2>No products</h2>}
-    const prodGal = products.length ? products.map( p => <SingleProduct key={p.familyId} product={p} />) : null;
+
+    const filteredProducts = products.filter(product => product.modelList.every(model => model.pviSubtypeName == 'Smartphone'))
+    const prodGal = filteredProducts.length ? filteredProducts.map( p => <SingleProduct key={p.familyId} product={p} />) : null;
 
     return (
         <div>
