@@ -1,0 +1,13 @@
+.colorOptions {
+    display: flex;
+    grid-column-gap: 10px;
+    .colorCircle {
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        box-sizing: border-box;
+        &.white {
+            border: 1px solid #494d53;
+        }
+    }
+}

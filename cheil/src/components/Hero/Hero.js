@@ -1,4 +1,4 @@
-import SamsungLogo from '../images/samsung-logo.png'
+import SamsungLogo from '../../images/samsung-logo.png'
 
 const Hero = () =>  {
 

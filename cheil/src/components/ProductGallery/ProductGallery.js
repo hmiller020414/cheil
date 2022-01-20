@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import SingleProduct from './SingleProduct'
+import SingleProduct from '../SingleProduct/SingleProduct'
 
-import ProductData from '../services/ProductData';
+import ProductData from '../../services/ProductData';
 
 const ProductGallery = () => {
 

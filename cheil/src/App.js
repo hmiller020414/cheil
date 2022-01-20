@@ -1,7 +1,7 @@
 import './App.scss';
 
-import Hero from './components/Hero';
-import ProductGallery from './components/ProductGallery'
+import Hero from './components/Hero/Hero';
+import ProductGallery from './components/ProductGallery/ProductGallery'
 
 const App = () => {
 
