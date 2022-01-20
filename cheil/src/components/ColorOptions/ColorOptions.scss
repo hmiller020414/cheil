@@ -1,9 +1,13 @@
 .colorOptions {
-    display: flex;
-    grid-column-gap: 10px;
     width: fit-content;
     width: -moz-fit-content;
-    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 25px auto 20px auto;
     .colorCircle {
         width: 20px;
         height: 20px;

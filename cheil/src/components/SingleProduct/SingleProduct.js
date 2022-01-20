@@ -12,7 +12,7 @@ const SingleProduct = ({product}) => {
                     <img src={product.modelList[0].thumbUrl} alt={product.modelList[0].thumbUrlAlt} />
                 </div>
                 <div className="singleProductCopy">
-                    <p>{product.fmyMarketingName}</p>
+                    <h2>{product.fmyMarketingName}</h2>
                     <ColorOptions colors={colors} />
                     <p>Starting at {product.modelList[0].priceDisplay}</p>
                 </div>

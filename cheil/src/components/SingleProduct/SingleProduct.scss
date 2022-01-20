@@ -1,5 +1,6 @@
 .singleProduct {
     width: 371px;
+    max-width: 90%;
     background-color: #F5F7F6;
     box-sizing: border-box;
     box-shadow: 5px 6px 6px rgba(0,0,0,0.16);
@@ -13,5 +14,12 @@
                 width: 100%;
             }
         }
+        .singleProductCopy {
+            margin-top: 15px;
+        }
+    }
+    @media (max-width: 374px) {
+        padding: 35px 30px;
+        border-radius: 33px;
     }
 }

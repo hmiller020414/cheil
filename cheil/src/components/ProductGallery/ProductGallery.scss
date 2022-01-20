@@ -5,7 +5,13 @@
     .productGalleryInner {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+        grid-column-gap: 60px;
         grid-row-gap: 90px;
+    }
+    @media (max-width: 767px) {
+        .productGalleryInner {
+            grid-row-gap: 40px;
+        }
     }
 }
