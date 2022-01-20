@@ -6,6 +6,7 @@ const SingleProduct = ({product}) => {
             <img src={product.modelList[0].thumbUrl} alt={product.modelList[0].thumbUrlAlt} />
             <p>{product.fmyMarketingName}</p>
             <ColorOptions colors={product.chipOptions[0]} />
+            <p>Starting at {product.modelList[0].priceDisplay}</p>
         </div>
     )
 }
